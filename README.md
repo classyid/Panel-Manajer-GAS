@@ -4,12 +4,19 @@
 Panel-Manajer-GAS adalah aplikasi web yang dibangun menggunakan Google Apps Script (GAS) untuk mengelola data Panel dengan mudah dan aman. Aplikasi ini menyediakan antarmuka yang user-friendly untuk mengakses dan mengelola informasi server, dilengkapi dengan fitur keamanan yang kuat.
 
 ## Fitur Utama
+
 🔐 **Keamanan Tinggi**: Akses dilindungi password
+
 🔍 **Pencarian Cepat**: Temukan informasi domain dengan mudah
+
 📊 **Manajemen Data Efisien**: Kelola informasi server PleskPanel
+
 📱 **Desain Responsif**: Akses dari perangkat apa saja
+
 🔔 **Notifikasi Real-time**: Integrasi dengan Telegram untuk pemantauan akses
+
 📝 **Log Akses Lengkap**: Catat semua aktivitas pengguna
+
 
 ## Teknologi
 - Google Apps Script
