@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('Styles'); ?>
+  </head>
+  <body>
+    <div id="loginPage" class="container">
+      <h1>Login</h1>
+      <div class="login-form">
+        <input type="password" id="passwordInput" placeholder="Masukkan password">
+        <button onclick="login()">Login</button>
+      </div>
+      <p id="loginMessage" style="color: red;"></p>
+    </div>
+
+    <div id="mainPage" class="container" style="display: none;">
+      <h1>Data Pengguna </h1>
+      
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Cari domain...">
+        <button onclick="performSearch()">Cari</button>
+      </div>
+      
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Server</th>
+            <th>Domain</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan dimasukkan di sini -->
+        </tbody>
+      </table>
+    </div>
+    
+    <div id="detailModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Detail Server</h2>
+        <p id="detailContent"></p>
+        <button id="copyPasswordBtn" class="btn">Salin Password</button>
+      </div>
+    </div>
+    
+    <?!= include('JavaScript'); ?>
+  </body>
+</html>
